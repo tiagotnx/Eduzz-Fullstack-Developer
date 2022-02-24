@@ -1,1 +1,1 @@
-# Eduzz-Fullstack-Developer
+# Eduzz Fullstack Developer
