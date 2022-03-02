@@ -66,6 +66,6 @@ git init - inicializa um repositório vazio
 # Configurando o git para o primeiro uso
 
 git config --global user.email "tiagotnx@gmail.com"
-git config --global user.name Tiago
+git config --global user.name TiagoTNX
 
 ---
