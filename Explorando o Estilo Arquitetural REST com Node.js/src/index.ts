@@ -1,4 +1,5 @@
 import express from "express";
+import authorizationRoute from "./routes/authorization.route";
 import statusRoute from "./routes/status.route";
 import usersRoute from "./routes/users.route";
 
@@ -11,6 +12,7 @@ app.use(express.urlencoded({ extended: true })); //parcear alguns atributos do h
 //Configurações de Rotas  --- Para usar as rotas
 app.use(usersRoute); // tora de usuários
 app.use(statusRoute); // rota de status
+app.use(authorizationRoute); //rota de autenticação
 
 //Configurações de servidor
 app.listen(3000, () => {
